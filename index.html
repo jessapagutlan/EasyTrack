@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EasyTrack | Personal Expense Tracker</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="app-container">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="logo">
+            <span class="logo-icon">♡</span>
+            <h2>EasyTrack</h2>
+        </div>
+
+        <p class="sidebar-label">MENU</p>
+
+        <nav>
+            <a href="#dashboard" class="nav-link active">⌂ Dashboard</a>
+            <a href="#budget" class="nav-link">♧ My Budget</a>
+            <a href="#add-expense" class="nav-link">＋ Add Expense</a>
+            <a href="#expenses" class="nav-link">▤ Expenses</a>
+            <a href="#categories" class="nav-link">▦ Categories</a>
+        </nav>
+
+        <div class="sidebar-bottom">
+            <p>Manage your money,</p>
+            <p>one step at a time. ♡</p>
+        </div>
+
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content" id="dashboard">
+
+        <!-- HEADER -->
+        <header class="topbar">
+
+            <div>
+                <h1>My Dashboard</h1>
+                <p>Welcome back! Let's manage your money wisely.</p>
+            </div>
+
+            <div class="header-actions">
+                <div id="current-date" class="date-display"></div>
+
+                <button id="theme-toggle" class="theme-button">
+                    🌙 Dark Mode
+                </button>
+            </div>
+
+        </header>
+
+        <!-- SUMMARY -->
+        <section class="summary-section">
+
+            <div class="section-heading">
+                <h2>Expense Overview</h2>
+                <p>Your financial summary at a glance.</p>
+            </div>
+
+            <div id="summary-container" class="summary-grid"></div>
+
+        </section>
+
+        <!-- BUDGET -->
+        <section id="budget" class="content-card">
+
+            <div class="section-heading">
+                <h2>My Budget ♡</h2>
+                <p>Manage your available money and spending limit.</p>
+            </div>
+
+            <div id="budget-container"></div>
+
+        </section>
+
+        <!-- ADD EXPENSE -->
+        <section id="add-expense" class="content-card">
+
+            <div class="section-heading">
+                <h2>Add New Expense</h2>
+                <p>Record your daily spending here.</p>
+            </div>
+
+            <div id="expense-form-container"></div>
+
+        </section>
+
+        <!-- EXPENSE LIST -->
+        <section id="expenses" class="content-card">
+
+            <div class="section-heading">
+                <h2>Recent Expenses</h2>
+                <p>View, search, filter, and manage your records.</p>
+            </div>
+
+            <div id="expense-list-container"></div>
+
+        </section>
+
+        <!-- CATEGORY -->
+        <section id="categories" class="content-card">
+
+            <div class="section-heading">
+                <h2>Expenses by Category</h2>
+                <p>See where your money goes.</p>
+            </div>
+
+            <div id="category-container"></div>
+
+        </section>
+
+        <footer>
+            © 2026 EasyTrack. Manage your expenses with ease. ♡
+        </footer>
+
+    </main>
+
+</div>
+
+<script type="module" src="js/controller.js"></script>
+
+</body>
+</html>
