@@ -17,3 +17,13 @@ It also calculates the percentage of expenses for each category based on the tot
 - Shows the total amount spent in each category.
 - Displays the percentage of expenses per category.
 - Updates the category summary when expense information changes.
+
+
+## Category View Testing
+
+| Test Case | Expected Result |
+|---|---|
+| Display Categories | Expense categories are displayed correctly. |
+| Calculate Category Total | The total amount for each category is calculated correctly. |
+| Calculate Percentage | The percentage for each category is displayed correctly. |
+| Update Category Summary | Category information updates after expense changes. |
