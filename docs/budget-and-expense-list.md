@@ -18,3 +18,17 @@ Its features include:
 - Adjusting the budget using the available controls.
 - Clearing the current budget.
 - Updating budget information after saving changes.
+
+
+## Expense List Features
+
+The Expense List displays the expenses recorded by the user.
+
+Its features include:
+- Displaying recorded expenses.
+- Searching for expenses by name.
+- Filtering expenses according to category.
+- Editing existing expense records.
+- Deleting expense records.
+
+These features help users organize and manage their expense information.
