@@ -16,3 +16,12 @@ It uses the model's functions to obtain:
 - Remaining budget.
 
 These values help users understand their current financial situation.
+
+
+## Summary View Features
+
+- Displays the total amount of expenses.
+- Shows the available budget.
+- Displays the remaining balance.
+- Updates the displayed information when expense or budget data changes.
+- Formats monetary values for easier reading.
